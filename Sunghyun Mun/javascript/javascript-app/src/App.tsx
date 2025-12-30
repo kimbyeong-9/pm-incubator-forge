@@ -5,6 +5,8 @@ import { LogicalOperationExample } from './logical_operation/LogicalOperationExa
 import { ControlFlowIf } from './control_flow/ControlFlowIf'
 import { FirstProblem } from './problem/FirstProblem'
 import { ControlFlowSwitch } from './control_flow/ControlFlowIfSwitch'
+import { ControlFlowFor } from './control_flow/ControlFlowFor'
+import { ControlFlowForSummation } from './control_flow/ControlFlowForSummation'
 
 // 실행 방법: npm run dev
 // 실행 이후 나타는 Local: https://localhost:숫자/가 있음
@@ -28,7 +30,9 @@ function App() {
         <LogicalOperationExample/>
         <ControlFlowIf/>
         <FirstProblem/>
-        <ControlFlowSwitch/>          
+        <ControlFlowSwitch/>
+        <ControlFlowFor/>
+        <ControlFlowForSummation/>          
       </div>
     </>
   )
