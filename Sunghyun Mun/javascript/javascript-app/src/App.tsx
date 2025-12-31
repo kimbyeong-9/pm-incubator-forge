@@ -11,6 +11,8 @@ import { ControlFlowForSummationExample } from './control_flow/ControlFlowForSum
 import { SecondProblem } from './problem/SecondProblem'
 import { MapExample } from './map/MapExample'
 import { MapReduceExample } from './map/MapReduceExample'
+import { MapFilterExample } from './map/MapFilterExample'
+import { ArraySliceExample } from './array/ArraySliceExample'
 
 
 // 실행 방법: npm run dev
@@ -42,6 +44,8 @@ function App() {
         <SecondProblem/>
         <MapExample/>
         <MapReduceExample/>
+        <MapFilterExample/>
+        <ArraySliceExample/>
       </div>
     </>
   )
